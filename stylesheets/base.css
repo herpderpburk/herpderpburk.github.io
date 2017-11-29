@@ -34,7 +34,7 @@
 	img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
 	dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption,
 	tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
-	figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+	figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, sidebar,
 	time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -487,7 +487,7 @@
 	.endtag {
 		clear: left;
 	}
-	.summary {
+	.sidebar {
 		background-color: black;
 		position: fixed;
 		top: 0;
@@ -498,35 +498,35 @@
 		padding: 3.5em 0px;
 		font-size: 18px;
 	}
-	.summary p {
+	.sidebar p {
 		color: #eee;
 		line-height: 1.3em;
 		padding: 0 20px;
 		margin: 0;
 		margin-bottom: 0.5em;
 	}
-	.summary .addr {
+	.sidebar .addr {
 		color: #aaa;
 		font-size: 13px;
 	}
-	.summary .mail {
+	.sidebar .mail {
 		font-size: 13px;
 	}
-	.summary .toc {
+	.sidebar .toc {
 		padding: 0.5em 0px;
 		margin-bottom: 2em;
 	}
-	.summary a:hover {
+	.sidebar a:hover {
 		background-color: #333;
 		color: white !important;
 		box-shadow: none;
 	}
-	.summary a {
+	.sidebar a {
 		display: block;
 		border-radius: 0;
 		padding-left: 0;
 	}
-	.summary .toc a {
+	.sidebar .toc a {
 		display: block;
 		color: #eee !Important;
 		font-size: 12px;
@@ -535,16 +535,16 @@
 		text-transform: uppercase;
 		letter-spacing:1px;
 	}
-	.summary .toc .email {
+	.sidebar .toc .email {
 		margin-bottom: 0.4em;
 		color: #E8822E !important;
 	}
-	.summary .toc .email .arobase {
+	.sidebar .toc .email .arobase {
 		color: #9d5921 !important;
 		padding-left: 0.1em;
 		padding-right: 0.1em;
 	}
-	.summary hr {
+	.sidebar hr {
 		border-color: #333;
 		margin: 1.7em 10px;
 		margin-right: 20px;
@@ -594,7 +594,7 @@
 		padding-left: 20px;
 	}
 	@media only screen and (max-width: 1450px) {
-		.summary {
+		.sidebar {
 			display: none;
 		}
 		.infos {
@@ -623,7 +623,7 @@ h4 {
 
 
 	@media print {
-		.summary, .logo, .noprint {
+		.sidebar, .logo, .noprint {
 			display: none;
 		}
 		.print-only {
