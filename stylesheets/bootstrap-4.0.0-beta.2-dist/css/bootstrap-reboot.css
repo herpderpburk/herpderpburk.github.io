@@ -191,7 +191,7 @@ button,
 input:not([type="range"]),
 label,
 select,
-summary,
+sidebar,
 textarea {
   -ms-touch-action: manipulation;
       touch-action: manipulation;
@@ -328,7 +328,7 @@ output {
   display: inline-block;
 }
 
-summary {
+sidebar {
   display: list-item;
 }
 
