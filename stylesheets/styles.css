@@ -248,6 +248,10 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
+.fa.fa-print {
+  float: right;
+}
+
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
