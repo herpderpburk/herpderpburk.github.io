@@ -1,0 +1,6 @@
+@media print {
+    .fa-envelope { display:none;}
+    .date {display: none;}
+    .taglist {display: none;}
+
+}
