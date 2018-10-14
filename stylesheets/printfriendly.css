@@ -2,5 +2,6 @@
     .fa-envelope { display:none;}
     .date {display: none;}
     .taglist {display: none;}
+    @page { size: auto;  margin: 0mm; }
 
 }
