@@ -5,6 +5,7 @@
     .nowrap.fa.fa-print {display:none;}
     .date {display: none;}
     .taglist {display: none;}
+    desktop-phone, desktop-mail {display: none;}
     @page { size: auto;  margin: 0mm; }
 
 }

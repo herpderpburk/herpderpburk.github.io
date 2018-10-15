@@ -760,3 +760,8 @@ h4 {
 .subheader {
 	padding-bottom: 0.3em;
 }
+
+print-mail, print-phone {
+	display: none;
+}
+
