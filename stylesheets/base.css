@@ -761,7 +761,7 @@ h4 {
 	padding-bottom: 0.3em;
 }
 
-print-mail, print-phone {
+#print-mail, #print-phone {
 	display: none;
 }
 
