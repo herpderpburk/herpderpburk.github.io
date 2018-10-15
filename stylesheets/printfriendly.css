@@ -2,6 +2,7 @@
     .fa.fa-envelope { display:none;}
     .nowrap.fa.fa-phone {display: inline;}
     .nowrap.fa.fa-envelope {display: inline;}
+    .nowrap.fa.fa-print {display:none;}
     .date {display: none;}
     .taglist {display: none;}
     @page { size: auto;  margin: 0mm; }
