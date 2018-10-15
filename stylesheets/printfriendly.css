@@ -1,5 +1,7 @@
 @media print {
-    .fa-envelope { display:none;}
+    .fa.fa-envelope { display:none;}
+    .nowrap.fa.fa-phone {display: inline;}
+    .nowrap.fa.fa-envelope {display: inline;}
     .date {display: none;}
     .taglist {display: none;}
     @page { size: auto;  margin: 0mm; }
