@@ -4,7 +4,7 @@
     .nowrap.fa.fa-envelope {display: inline;}
     .nowrap.fa.fa-print {display:none;}
     .date {display: none;}
-    .taglist {display: none;}
+    /* .taglist {display: none;} */
     #desktop-phone, #desktop-mail, #github {display: none;}
     @page { size: auto;  margin: 0mm; }
 
